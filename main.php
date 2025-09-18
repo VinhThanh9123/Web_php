@@ -200,35 +200,35 @@
         <div class="container">
             <!-- Menu dọc -->
             <div class="sidebar">
-                <a href="bai1.php" target="baitap">Bài1</a>
-                <a href="bai2.php" target="baitap">Bài2</a>
-                <a href="bai3.php" target="baitap">Bài3</a>
-                <a href="bai4.php" target="baitap">Bài4</a>
-                <a href="bai5.php" target="baitap">Bài5</a>
-                <a href="bai6.php" target="baitap">Bài6</a>
-                <a href="bai7.php" target="baitap">Bài7</a>
-                <a href="bai8.php" target="baitap">Bài8</a>
-                <a href="bai9.php" target="baitap">Bài9</a>
-                <a href="bai10.php" target="baitap">Bài10</a>
-                <a href="bai11.php" target="baitap">Bài11</a>
+                <a href="bai1.php" target="baitap">Bài 1</a>
+                <a href="bai2.php" target="baitap">Bài 2</a>
+                <a href="bai3.php" target="baitap">Bài 3</a>
+                <a href="bai4.php" target="baitap">Bài 4</a>
+                <a href="bai5.php" target="baitap">Bài 5</a>
+                <a href="bai6.php" target="baitap">Bài 6</a>
+                <a href="bai7.php" target="baitap">Bài 7</a>
+                <a href="bai8.php" target="baitap">Bài 8</a>
+                <a href="bai9.php" target="baitap">Bài 9</a>
+                <a href="bai10.php" target="baitap">Bài 10</a>
+                <a href="bai11.php" target="baitap">Bài 11</a>
             </div>
 
             <!-- Nội dung chính -->
             <div class="content">
                 <div class="menu1">
-                    <a href="#">C/C++</a>
+                    <a href="https://www.w3schools.com/cpp/default.asp">C++</a>
                     <a href="#">Giải thuật</a>
-                    <a href="#">HTML/CSS</a>
-                    <a href="#">JavaScript</a>
-                    <a href="#">JQuery</a>
-                    <a href="#">Boostrap</a>
-                    <a href="#">PHP</a>
-                    <a href="#">Java</a>
-                    <a href="#">Python</a>
-                    <a href="#">C#</a>
+                    <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+                    <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+                    <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>
+                    <a href="https://www.w3schools.com/jquery/default.asp">JQuery</a>
+                    <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Boostrap</a>
+                    <a href="https://www.w3schools.com/php/default.asp">PHP</a>
+                    <a href="https://www.w3schools.com/java/default.asp">Java</a>
+                    <a href="https://www.w3schools.com/python/default.asp">Python</a>
+                    <a href="https://www.w3schools.com/cs/index.php">C#</a>
                 </div>
                 <iframe src="welcome.php" name="baitap" style="border:none; width:100%; height:600px;"></iframe>
-                <iframe src="https://www.w3schools.com/html/default.asp" name="giaodien " frameborder="0" style="border:none; width:100%; height:600px;"></iframe>
             </div>
         </div>
 
