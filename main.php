@@ -153,6 +153,7 @@
             font-weight: bold;
             margin-top: -15px;
         }
+
         .menu1 a {
             margin: 0 10px;
             text-decoration: none;
@@ -162,6 +163,44 @@
             transition: 0.3s;
             background-color: orange;
             /* hiệu ứng mượt */
+        }
+
+        /* Css cho phần footer */
+        .footer {
+            background: #2e8b57;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: yellow;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-icons {
+            margin-top: 10px;
+        }
+
+        .footer .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .footer .social-icons img {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            transition: transform 0.3s;
+        }
+
+        .footer .social-icons img:hover {
+            transform: scale(1.2);
         }
     </style>
     </head>
@@ -175,6 +214,7 @@
                 <div>Khoa: <span>Công nghệ Thông tin</span></div>
                 <div>Lớp: <span>CNTT</span></div>
                 <div>Khóa: <span>K63</span></div>
+                <div>MSV: <span>221231052</span></div>
             </div>
             <div class="search-box">
                 <input type="text" placeholder="Tìm kiếm...">
@@ -184,9 +224,9 @@
         <!-- Menu ngang -->
         <div class="menu">
             <a href="#" target="giaodien">Trang chủ</a>
-            <a href="https://www.w3schools.com/html/default.asp" target="giaodien">HTML</a>
-            <a href="#">CSS</a>
-            <a href="#">PHP</a>
+            <a href="https://codelearn.io/learning/html-css-cho-nguoi-moi-bat-dau?tab=introduce" target="baitap">HTML</a>
+            <a href="https://codelearn.io/learning/html-css-cho-nguoi-moi-bat-dau?tab=introduce" target="baitap">CSS</a>
+            <a href="https://vietjack.com/php/index.jsp#google_vignette" target="baitap">PHP</a>
             <a href="#">JavaScript</a>
             <a href="#">W3Schools</a>
             <a href="#">Hocwebchuan</a>
@@ -211,6 +251,10 @@
                 <a href="bai9.php" target="baitap">Bài 9</a>
                 <a href="bai10.php" target="baitap">Bài 10</a>
                 <a href="bai11.php" target="baitap">Bài 11</a>
+                <a href="bai12.php" target="baitap">Bài 12</a>
+                <a href="bai13.php" target="baitap">Bài 13</a>
+                <a href="bai14.php" target="baitap">Bài 14</a>
+
             </div>
 
             <!-- Nội dung chính -->
@@ -231,6 +275,20 @@
                 <iframe src="welcome.php" name="baitap" style="border:none; width:100%; height:600px;"></iframe>
             </div>
         </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; 2025 - Website học lập trình. All rights reserved.</p>
+                <p>Liên hệ: <a href="mailto:vinhcntt@gmail.com">vinh221231052cntt3@gmail.com</a></p>
+                <div class="social-icons">
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                    <a href="profile.html"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="YouTube"></a>
+                    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </footer>
+
 
     </body>
 
